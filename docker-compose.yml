@@ -1,7 +1,5 @@
 tomcat:
-  image: dordoka/tomcat
+  image: lbblscy/tomcat
   ports:
   - "8080:8080"
   - "9009:8009"
-  volumes:
-  - "/opt/tomcat/webapps/:/opt/tomcat/webapps/"
